@@ -1,0 +1,11 @@
+# Quarto output
+_site/
+.DS_Store
+.Rproj.user
+.Rhistory
+.RData
+.quarto/
+.venv/
+.ipynb_checkpoints/
+/.quarto/
+**/*.quarto_ipynb

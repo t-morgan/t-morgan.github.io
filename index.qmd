@@ -1,0 +1,26 @@
+---
+title: "Home"
+page-layout: full
+---
+
+# Welcome
+
+This is my learning-in-public blog. I’m sharing course notes, experiments, and side projects as I work deeper into machine learning.
+
+## Latest posts
+
+::: {.callout-note}
+This list is generated automatically from the `posts/` folder.
+:::
+
+```{=html}
+<div class="listing">
+```
+```{listing}
+contents: posts
+sort: "date desc"
+type: default
+```
+```{=html}
+</div>
+```

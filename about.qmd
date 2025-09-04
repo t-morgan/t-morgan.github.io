@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+# About Me
+
+Hi, I’m Tim Morgan. I’ve been working as a software engineer since 2014, and I recently finished my M.S. in Computer Science at Georgia Tech. Over the years, I’ve built systems across the stack — but lately I’ve been especially drawn to machine learning and how it can be applied to solve real-world problems.
+
+This blog is my way of learning in public. I’m following the [fast.ai](https://course.fast.ai) course, experimenting with projects, and writing about what I discover along the way. Some posts will be structured notes, others will be write-ups of random experiments — like the AI Travel Agent I built with ChatGPT and OpenCode Sonic — or whatever side project catches my curiosity.
+
+Outside of work and study, I love getting outdoors, whether it’s hiking, exploring new trails, or just enjoying fresh air away from a screen.  
+
+Thanks for stopping by — I hope some of what I share here helps or inspires you on your own learning journey!

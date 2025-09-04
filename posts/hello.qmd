@@ -1,0 +1,8 @@
+---
+title: "Hello, Quarto"
+description: "Kicking off my learning-in-public blog."
+date: 2025-09-04
+categories: [intro, fastai]
+---
+
+This is a tiny starter post. Expect course notes, experiments, and occasional rabbit holes.
