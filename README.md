@@ -57,4 +57,4 @@ https://t-morgan.github.io/<repo-name>/
 ```bash
 quarto create post "My New Post" --dir posts
 ```
-Or create a new .qmd under posts/ with front matter (title, date).
+Or create a new `.qmd` under `posts/` with front matter (title, date).
