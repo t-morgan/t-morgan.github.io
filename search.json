@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About Me\nHi, I’m Tim Morgan. I’ve been working as a software engineer since 2014, and I recently finished my M.S. in Computer Science at Georgia Tech. Over the years, I’ve built systems across the stack — but lately I’ve been especially drawn to machine learning and how it can be applied to solve real-world problems.\nThis blog is my way of learning in public. I’m following the fast.ai course, experimenting with projects, and writing about what I discover along the way. Some posts will be structured notes, others will be write-ups of random experiments — like the AI Travel Agent I built with ChatGPT and OpenCode Sonic — or whatever side project catches my curiosity.\nOutside of work and study, I love getting outdoors, whether it’s hiking, exploring new trails, or just enjoying fresh air away from a screen.\nThanks for stopping by — I hope some of what I share here helps or inspires you on your own learning journey!"
+  },
+  {
+    "objectID": "posts/hello.html",
+    "href": "posts/hello.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "This is a tiny starter post. Expect course notes, experiments, and occasional rabbit holes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is my learning-in-public blog. I’m sharing course notes, experiments, and side projects as I work deeper into machine learning.\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis list is generated automatically from the posts/ folder.\n\n\n\ncontents: posts\nsort: \"date desc\"\ntype: default"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "Home",
+    "section": "",
+    "text": "Note\n\n\n\nThis list is generated automatically from the posts/ folder.\n\n\n\ncontents: posts\nsort: \"date desc\"\ntype: default"
+  }
+]
