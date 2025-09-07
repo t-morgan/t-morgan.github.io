@@ -6,7 +6,7 @@ website:
   description: "Software engineer, ML explorer, and tinkerer writing in public."
   navbar:
     left:
-      - text: Home
+      - text: "Home"
         href: index.qmd
       - text: About
         href: about.qmd
@@ -15,9 +15,12 @@ website:
         href: https://github.com/t-morgan
       - icon: linkedin
         href: https://linkedin.com/in/tmorgancmh
+  page-footer: 
+    center: "© 2025 Tim Morgan"
 
 format:
   html:
     theme: cosmo
     css: styles.css
-
+    include-after-body:
+      - attention-brand.html

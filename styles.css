@@ -1,3 +1,123 @@
 /* Minimal tweaks; keep it clean */
 h1, h2, h3 { letter-spacing: 0.2px; }
 .listing .quarto-listing { margin-top: 0.5rem; }
+
+/* --- Brand logo sizing & palette (no layout shift) --- */
+:root {
+    --brand-w-sm: 100px;
+    /* width on small/medium */
+    --brand-w-lg: 120px;
+    /* width on large+ */
+    --wire: #c7c7c7;
+    --tok1: #4e79a7;
+    --tok2: #59a14f;
+    --tok3: #9c755f;
+    --out: #f28e2c;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --wire: #5a5a5a;
+    }
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-title {
+    display: inline-flex;
+    align-items: center;
+    min-width: var(--brand-w-sm);
+    /* reserve width immediately */
+}
+
+@media (min-width: 992px) {
+
+    .navbar .navbar-brand,
+    .navbar .navbar-title {
+        min-width: var(--brand-w-lg);
+    }
+}
+
+/* The inline SVG fills the reserved width with fixed aspect ratio */
+.brand-logo {
+    display: block;
+    width: 100%;
+    max-width: var(--brand-w-sm);
+    height: auto;
+    aspect-ratio: 220 / 80;
+    /* reserve height -> no flicker */
+}
+
+@media (min-width: 992px) {
+    .brand-logo {
+        max-width: var(--brand-w-lg);
+    }
+}
+
+/* Tokens and lines */
+.tok {
+    fill: var(--tok1);
+}
+
+.tok.t2 {
+    fill: var(--tok2);
+}
+
+.tok.t3 {
+    fill: var(--tok3);
+}
+
+.tok.out {
+    fill: var(--out);
+}
+
+.w {
+    stroke: var(--wire);
+    stroke-linecap: round;
+    transition: stroke-width 350ms ease, opacity 350ms ease;
+}
+
+.w.inactive {
+    stroke-width: 1px;
+    opacity: 0.25;
+}
+
+/* default / preload state */
+.w1 {
+    stroke-width: 1.6;
+    opacity: 0.70;
+}
+
+.w2 {
+    stroke-width: 2.4;
+    opacity: 0.84;
+}
+
+.w3 {
+    stroke-width: 3.2;
+    opacity: 0.93;
+}
+
+.w4 {
+    stroke-width: 4.4;
+    opacity: 1.00;
+}
+
+/* Optional: gentle pulse on strongest line only */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scaleX(1.04);
+        opacity: .97;
+    }
+}
+
+.w4 {
+    animation: pulse 2.6s ease-in-out infinite;
+    transform-origin: right;
+}
